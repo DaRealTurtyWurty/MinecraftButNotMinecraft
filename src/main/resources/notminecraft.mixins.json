@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "io.github.darealturtywurty.notminecraft.mixins",
+	"compatabilityLevel": "JAVA_8",
+	"refmap": "notminecraft.refmap.json",
+	"mixins": [
+		"NotMinecraftMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"minVersion": "0.8"
+}

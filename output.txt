@@ -1,0 +1,73 @@
+Stopping any running daemons:
+Stopping Daemon(s)
+1 Daemon stopped
+Cleaning the gradle cache:
+To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/6.8.1/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+Java: 15.0.2 JVM: 15.0.2+7(AdoptOpenJDK) Arch: amd64
+WARNING: This project is configured to use the official obfuscation mappings provided by Mojang. These mapping fall under their associated license, you should be fully aware of this license. For the latest license text, refer to the mapping file itself, or the reference copy here: https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
+
+Directory 'C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot' (Windows Registry) used for java installations does not exist
+
+> Task :clean
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.8.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 34s
+1 actionable task: 1 executed
+Generating all of the run files:
+To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/6.8.1/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+Java: 15.0.2 JVM: 15.0.2+7(AdoptOpenJDK) Arch: amd64
+WARNING: This project is configured to use the official obfuscation mappings provided by Mojang. These mapping fall under their associated license, you should be fully aware of this license. For the latest license text, refer to the mapping file itself, or the reference copy here: https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
+
+Directory 'C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot' (Windows Registry) used for java installations does not exist
+
+> Task :makeSrcDirs
+> Task :downloadMcpConfig
+> Task :extractSrg
+> Task :createSrgToMcp
+> Task :downloadMCMeta
+> Task :downloadAssets
+> Task :extractNatives
+> Task :prepareRuns
+> Task :genEclipseRuns
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.8.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 2s
+8 actionable tasks: 8 executed
+Generating Eclipse Project files:
+To honour the JVM settings for this build a single-use Daemon process will be forked. See https://docs.gradle.org/6.8.1/userguide/gradle_daemon.html#sec:disabling_the_daemon.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+Java: 15.0.2 JVM: 15.0.2+7(AdoptOpenJDK) Arch: amd64
+WARNING: This project is configured to use the official obfuscation mappings provided by Mojang. These mapping fall under their associated license, you should be fully aware of this license. For the latest license text, refer to the mapping file itself, or the reference copy here: https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
+
+Directory 'C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot' (Windows Registry) used for java installations does not exist
+
+> Task :downloadMcpConfig
+> Task :extractSrg UP-TO-DATE
+> Task :createSrgToMcp UP-TO-DATE
+> Task :downloadMCMeta UP-TO-DATE
+> Task :downloadAssets
+> Task :extractNatives UP-TO-DATE
+> Task :makeSrcDirs
+> Task :eclipseClasspath
+> Task :eclipseFactoryPath
+> Task :eclipseJdt
+> Task :eclipseJdtApt FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.8.1/userguide/command_line_interface.html#sec:command_line_warnings
+11 actionable tasks: 7 executed, 4 up-to-date
